@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo"><img src="Images/Logo.png" alt="Logo de Alura"></h1>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="entrada_texto">
+                <textarea id="texto_introducido" class="texto_introducido" placeholder="Ingrese el texto aqui"></textarea>
+                <iconify-icon icon="bi:exclamation-circle-fill" class="icono"></iconify-icon>
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="botones">
+                <button class="boton_encriptar" id="boton_encriptar">Encriptar</button>
+                <button class="boton_desencriptar" id="boton_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="salida_texto">
+                <img class="imagen" src="Images/Muñeco.png" alt="Persona observando un diamante con una lupa">
+                <p class="mensaje_no_encontrado1">Ningún mensaje fue encontrado</p>
+                <p class="mensaje_no_encontrado2">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <textarea id="texto_resultante" class="texto_resultante" readonly>Hola</textarea>
+                <button class="boton_copiar" id="boton_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <p>Realizado por: Miguel Hz Bárcenas</p>
+    </footer>
+
+</body>
+</html>

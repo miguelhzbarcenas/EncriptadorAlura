@@ -1,0 +1,177 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.entrada_texto{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.entrada_texto p{
+    color: #495057;
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: 396px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.icono{
+    color: #495057;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 395px;
+}
+
+.texto_introducido{
+    width: 660px;
+    height: 390PX;
+    font-size: 1.6rem;
+    color: #0A3871;
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+.texto_introducido:focus{
+    outline-style: none;
+}
+
+.botones{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 520px;
+}
+
+.boton_encriptar{
+    width: 318px;
+    height: 67px;
+    font-size: 1rem;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    border-color: transparent;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.boton_encriptar:hover{
+    background-color: #0f3f79;
+}
+
+.boton_encriptar:active {
+    background-color: #0A3871;
+}
+
+.boton_desencriptar{
+    width: 318px;
+    height: 67px;
+    font-size: 1rem;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin-left: 10px;
+}
+
+.boton_desencriptar:hover{
+    background-color: #cfd6e0;
+}
+
+.boton_desencriptar:active {
+    background-color: #D8DFE8;
+}
+
+.salida_texto{
+    background-color: white;
+    width: 380px;
+    height: 630px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.imagen{
+    position: relative;
+    top: 75px;
+}
+
+.mensaje_no_encontrado1{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    color: #343A40;
+    font-size: 24px;
+    padding: 40px;
+}
+
+.mensaje_no_encontrado2{
+    position: relative;
+    top: -15px;
+    color: #495057;
+    font-size: 16px;
+    padding: 40px;
+}
+
+.texto_resultante{
+    position: absolute;
+    width: 336px;
+    height: 504px;
+    top: 20px;
+    right: 18px;
+    border-color: transparent;
+    font-size: 18px;
+    color: #343A40;
+    resize: none;
+    display: none;
+}
+
+.texto_resultante:focus{
+    outline-style: none;
+}
+
+.boton_copiar{
+    width: 310px;
+    height: 62px;
+    font-size: 1rem;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    display: none;
+}
+
+.boton_copiar:hover{
+    background-color: #cfd6e0;
+}
+
+.boton_copiar:active {
+    background-color: #D8DFE8;
+}
+
+.footer{
+    color: #495057;
+    font-size: 16px;
+    position: absolute;
+    left: 200px;
+    bottom: 35px;
+}
